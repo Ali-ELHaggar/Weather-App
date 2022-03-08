@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(./bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    background-image: url("Sky.jpg");
+  }
+  .heading{
+    color: white;
+    font-size: 25px;
+    background-color: #253a81;
+    padding: 10px;
+    text-align: center;
+  }
+  #zipCode,
+  #feeling,
+  #generateD{
+    background: #2a64a766;
+    margin: 60px auto 0px;
+    width: 40%;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    height: 38px;
+    text-align: center;
+    color: white;
+    display: block;
+    font-size: 15px;
+    resize: none;
+  }
+  #zipCode::placeholder,
+  #feeling::placeholder{
+    color: white;
+    font-family: sans-serif;
+    line-height: 38px;
+  }
+  #errorS {
+    background-color: #e91e63;
+    color: white;
+    font-size: large;
+    width: 22%;
+    text-align: center;
+    margin: 0px auto 12px;
+    border-radius: 1px 0px 30px 30px;
+    display: block;
+  }
+  #feeling{
+    margin-top: 0;
+  }
+  #generateD{
+    width: 20%;
+    margin-top: 18px;
+    background: #6bb30e;
+    cursor: pointer;
+  }
+  #entries{
+    width: 50%;
+    background: #07133340;
+    margin: 50px auto;
+    border-radius: 10px;
+    height: 208px;
+    opacity: 0;
+    transition: all 2s ease; 
+  }
+  .title{
+    padding: 10px;
+    text-align: center;
+    font-size: 17px;
+  }
+  #entriesHolder{
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+    display: grid;
+    grid-template-rows: 60%;
+    grid-template-columns: 50% 50%;
+    font-size: 1.5vw;
+  }
+  #contents{
+    grid-column: 1 / -1;
+  }
+  #temperature,
+  #cities{
+    font-size: 4vw;
+  }
